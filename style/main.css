@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+body{
+    background-color: #f9e090;
+}
+
+header{
+    background-color: #dc5353;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    border-radius: 0px 0px 50px 50px;
+    border-bottom:solid 3px #a72461;
+    border-left:solid 3px #a72461;
+    border-right:solid 3px #a72461;
+}
+
+.parrafLogin{
+    padding: 5px;
+}
+
+#mainContainer{
+    background-color: #ff935c;
+    margin-left: 420px;
+    margin-right: 420px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    border:solid 2px #a72461;
+}
+
+.parrafTable{
+    font-size: large;
+    padding: 2px;
+}
+
+
+#numberTable td{
+    padding: 20px;
+}
+
+#numberTable td img:hover{
+    transform: rotate(10deg);
+}
+
+.boton{
+    border-radius: 10px;
+    background-color:#dc5353;
+    border:solid 2px #a72461;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.trans{
+    filter:grayscale(80%);
+}
+
+
+.tableInit{
+    color:#a72461;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.botonTable{
+    border-radius: 10px;
+    background-color:#dc5353;
+    border:solid 2px #a72461;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.inputTable{
+    width:10%;
+    height:10%;
+    text-align:center; 
+    padding:5px;
+    background-color: #f9e090;
+    border-radius: 5px;
+}
+
+.imgResolve{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top:5px;
+
+}
+
+
+#cloudImgLogin{
+    height:275px;
+    width:350px;
+    margin-left: 775px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom:100px;
+}
+
+#parrafHelpLogin{
+    z-index: 1;
+    height:100px;
+    width:175px;
+    text-align: justify;
+    margin-left: 870px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom:235px;
+}
+
+
+#cloudImgMain{
+    height:275px;
+    width:350px;
+    margin-left: 1120px;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom:100px;
+}
+
+#parrafHelpMain{
+    z-index: 1;
+    width:230px;
+    text-align: justify;
+    margin-left: 1200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom:235px;
+    font-size: medium;
+}
+
+
+#arrowImg{
+    height:20px;
+    width:35px;
+    margin-left: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+
+footer #footerImg{
+    margin-left: 1050px;
+}
+
